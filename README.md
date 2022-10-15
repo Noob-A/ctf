@@ -144,7 +144,7 @@
 - [Cross-Site Request Forgery](https://www.youtube.com/watch?v=eWEgUcHPle0)
   - получение куки через подмен получателя куки
 
-# Uncategorized(НАДО СОРТИТЬ!!!):
+# General
 - [ctf-checklist](https://fareedfauzi.gitbook.io/ctf-checklist-for-beginner/)
 - ![img_2.png](img_2.png)
   ###### [CTFCheatsheet.xmind](CTFCheatsheet.xmind)
