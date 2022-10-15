@@ -85,8 +85,28 @@
 - [thc-hydra](https://www.kali.org/tools/hydra/)
   - Bruteforce универсальный - thc-hydra
   - [Github](https://github.com/vanhauser-thc/thc-hydra)
-# Uncategorized:
+- [Math.random() JS](https://www.youtube.com/watch?v=-h_rj2-HP2E)
+  - взлом псевдо рандома в js
+- [wappalayzer](https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/)
+  - получения технологий которые использует сайт
+  <details>
+    <summary>Картинка</summary>
+    <img src="img_1.png">
+  </details>
+- [Insecure Deserialization Attack](https://www.youtube.com/watch?v=jwzeJU_62IQ)
+  - атака на десиариазацию(восстановление обьектов из файла)
+- [HTTP pollution](https://www.youtube.com/watch?v=QVZBl8yxVX0)
+  - подмена параметров
+- [XSS guide](https://www.youtube.com/watch?v=EoaDgUgS6QA)
+  - полный разбор XXS(инъекция скрипта вместо текста)
+- [Cross-Site Request Forgery](https://www.youtube.com/watch?v=eWEgUcHPle0)
+  - получение куки через подмен получателя куки
+
+# Uncategorized(НАДО СОРТИТЬ!!!):
 - [awesome-ctf](https://project-awesome.org/apsdehal/awesome-ctf#solve)
   - multi tools
 - [ctf-tools](https://github.com/zardus/ctf-tools)
   - multi tools
+- [ctf-checklist](https://fareedfauzi.gitbook.io/ctf-checklist-for-beginner/)
+- ![img_2.png](img_2.png)
+  ###### CTFCheatsheet.xmind
