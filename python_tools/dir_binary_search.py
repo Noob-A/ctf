@@ -3,7 +3,7 @@ import os
 user_input = input('Dir: ')
 directory = os.listdir(user_input)
 
-searchstring = bytes(input('String: '), 'utf-8').lower()
+searchstring = bytes(input('Bytes: '), 'utf-8').lower()
 
 for fname in directory:
     if os.path.isfile(user_input + os.sep + fname):
