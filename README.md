@@ -1,6 +1,12 @@
-###### РЕКОМЕНДУЮ СТАВИТЬ КАЛИ ЛИНУКС И ЗАРАНЕЕ СТАВИТЬ ВСЁ ИЗ ВАШЕЙ КАТЕГОРИИ
+###### РЕКОМЕНДУЮ СТАВИТЬ [КАЛИ ЛИНУКС](https://www.kali.org/) И ЗАРАНЕЕ СТАВИТЬ ВСЁ ИЗ ВАШЕЙ КАТЕГОРИИ
 
 # Cryptography
+- [quip quip](https://quipqiup.com/)
+  - решалка криптограм которая стремиться к минимальной энропии(старается организовать слова)
+- [cryptii](https://cryptii.com/)
+  - многоуровневые шифрования/дешифрования
+- [b64/32/url/hash/file en/de/coder](https://emn178.github.io/online-tools/base32_decode.html)
+  - полезная штука
 - [dcode (france)](https://www.dcode.fr/rot-13-cipher)
   - расшифровка всего
   - вбиваете в поиск шифр и оно откроет решалку данного шифра
@@ -42,26 +48,63 @@
   - делаете аккаунт, затем в настройках аккаунта вводиться промокод "ПИЗДЕЦ" дает 30 гб
 - [cloudflare warp](https://1.1.1.1/)
   - впн от cloudflare 
+# Stenography
+- Восстановление удаленных файлов
+- Контейнеры 
+  - Veracrypt, Truecrypt
+- exiftool {имя_исполнительного_файла}
+  - ищет метаданные
+- Binwalk 
+  - поиск исполняемых и других файлов в картинке
+- grep -i "flag{"
+  - поиск флага в прямую
+- [dir binary search](python_tools/dir_binary_search.py)
+  - в прямую ищет байты в директории рекурсивно
+- [tineye](https://tineye.com/)
+  - поиск по картинке
+- [imagemagick](https://imagemagick.org/index.php)
+  - манипуляция картинками
+- [stegsolve.jar](https://github.com/zardus/ctf-tools/blob/master/stegsolve/install)
+  - часто решает задачу сразу
+- [steghide](https://steghide.sourceforge.net/download.php)
+  - чтобы скачать нужен ВПН
+  - steghide --extract -sf {имя_файла}
+  - попытка найти что-либо в файле
+- [pngcheck](http://www.libpng.org/pub/png/apps/pngcheck.html)
+  - проверка на целостность картинки
+- [zsteg](https://github.com/zed-0xff/zsteg)
+  - поиск чего либо в PNG, BMP
+- [smart deblur](http://smartdeblur.net/)
+  - убирает размывание с фотографии
+- [stegseek](https://github.com/RickdeJager/stegseek#releases)
+  - перебирает все пароли 
+  - [kali](https://www.kali.org/tools/stegcracker/)
+- https://futureboy.us/stegano/decinput.html
+- http://stylesuxx.github.io/steganography/
+- https://www.mobilefish.com/services/steganography/steganography.php
+- https://manytools.org/hacker-tools/steganography-encode-text-into-image/
+- https://steganosaur.us/dissertation/tools/image
+- https://georgeom.net/StegOnline
 
 # Forensics
 - Дампы памяти (.mem файлы) 
   - HxD Hex Editor 
     - редактор сырых данных
   - Volatility 
-    - инструмент поиска и анализа инфы (ТОП) 
-  - Binwalk 
-    - поиск исполняемых и других файлов в картинке
+    - инструмент поиска и анализа инфы (ТОП)
   - Foremost 
     - поиск файлов из дампа
-- Strings 
-  - иногда полезно для получения строк из исполняемого файла
-- Восстановление удаленных файлов
-- Контейнеры 
-  - Veracrypt, Truecrypt
+
 
 # Assembler
-
-
+- file {имя_исполнительного_файла}
+  - даёт информацию о расширении, подписи и формате
+  - иногда организаторы могут дать бинарник, который окажется другим файлом, например картинкой
+- strings -a {имя_исполнительного_файла}
+  - ищет все строки в исп. фале
+- base64
+  - в интернете куча декодеров для этого шифра
+  - часто используется
 - [Ida Decompiler](https://out7.hex-rays.com/files/idafree77_windows.exe)
   - визуализация кода в виде графа
 - [Assembler Reference](http://ref.x86asm.net/coder32.html#modrm_byte_16)
@@ -72,7 +115,6 @@
   - красивый gdb
 - [BenEater](https://www.youtube.com/c/BenEater?app=desktop)
   - ютубер, объясняет ассемблер
-
 
 # Vulnerability search
 - [snyk-cli](https://docs.snyk.io/snyk-cli)
@@ -103,10 +145,6 @@
   - получение куки через подмен получателя куки
 
 # Uncategorized(НАДО СОРТИТЬ!!!):
-- [awesome-ctf](https://project-awesome.org/apsdehal/awesome-ctf#solve)
-  - multi tools
-- [ctf-tools](https://github.com/zardus/ctf-tools)
-  - multi tools
 - [ctf-checklist](https://fareedfauzi.gitbook.io/ctf-checklist-for-beginner/)
 - ![img_2.png](img_2.png)
-  ###### CTFCheatsheet.xmind
+  ###### [CTFCheatsheet.xmind](CTFCheatsheet.xmind)
