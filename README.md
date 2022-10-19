@@ -148,3 +148,4 @@
 - [ctf-checklist](https://fareedfauzi.gitbook.io/ctf-checklist-for-beginner/)
 - ![img_2.png](img_2.png)
   ###### [CTFCheatsheet.xmind](CTFCheatsheet.xmind)
+- https://docs.pwntools.com/en/stable/intro.html
